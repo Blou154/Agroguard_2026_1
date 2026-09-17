@@ -1,0 +1,3 @@
+﻿run_id,video,event_type,event_index,source_frame_number,video_time_s,persons_in_road,persons_in_restricted,boats_in_water,t_condition_s,t_event_s,t_gpio_s,persistence_s,event_to_gpio_s,condition_to_gpio_s,meets_2s,gpio_active_before,gpio_active_after,gpio_transition
+20260831_071534_916356,ROAD_GROUP_ZONE_001.mp4,GROUP_DETECTED,1,296,8.806903,4,1,0,7.868855,8.878328,8.8785,1.009473,0.000172,1.009645,1,0,1,1
+20260831_071534_916356,ROAD_GROUP_ZONE_001.mp4,RESTRICTED_ZONE_INTRUSION,1,321,9.550729,5,2,0,8.597515,9.624852,9.625009,1.027337,0.000156,1.027494,1,1,1,0

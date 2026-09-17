@@ -1,0 +1,5 @@
+﻿variable,n_samples,mean,std,min,max
+CPU utilization (%),904,20.4473,1.1872,17.1667,28.1667
+GPU utilization (%),904,54.3131,19.2816,6.0000,99.0000
+RAM used (MB),904,2370.4845,13.9799,2296.0000,2385.0000
+Maximum device temperature (C),904,56.1458,1.3157,51.9060,57.5000
