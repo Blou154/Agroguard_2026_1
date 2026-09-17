@@ -1,0 +1,30 @@
+# ============================================================
+# AgroGuard AI
+# Dependencias adicionales para NVIDIA Jetson Orin Nano
+# ============================================================
+#
+# Plataforma utilizada durante la validación:
+# - Python 3.10
+# - JetPack 6.2.3
+# - CUDA 12.6
+# - PyTorch 2.8.0 con soporte CUDA
+#
+# IMPORTANTE:
+# PyTorch y Torchvision no se incluyen en este archivo porque
+# deben instalarse usando versiones compatibles con JetPack,
+# CUDA y la arquitectura ARM64 de la Jetson.
+#
+# Antes de instalar este archivo, debe comprobarse que:
+#
+# python -c "import torch; print(torch.__version__); print(torch.cuda.is_available())"
+#
+# muestre:
+#
+# True
+#
+# ============================================================
+
+numpy==1.26.4
+opencv-python==4.10.0.84
+ultralytics==8.4.117
+Jetson.GPIO
