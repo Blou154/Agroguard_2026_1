@@ -1,0 +1,142 @@
+# ============================================================
+# PYTHON
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+
+# ============================================================
+# ENTORNOS VIRTUALES
+# ============================================================
+
+.venv/
+venv/
+env/
+ENV/
+
+
+# ============================================================
+# EDITORES Y SISTEMA OPERATIVO
+# ============================================================
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ============================================================
+# CREDENCIALES Y ARCHIVOS PRIVADOS
+# ============================================================
+
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+secrets.json
+token.txt
+
+
+# ============================================================
+# VIDEOS ORIGINALES Y CLIPS DE VALIDACIÓN
+# No se publican por tamaño y privacidad
+# ============================================================
+
+data/validation/source/
+data/validation/clips/
+
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+
+# ============================================================
+# EVIDENCIAS VISUALES GENERADAS
+# ============================================================
+
+runs/events/
+
+
+# ============================================================
+# RESULTADOS AUTOMÁTICOS DE ULTRALYTICS
+# ============================================================
+
+runs/detect/
+runs/train/
+runs/predict/
+wandb/
+
+
+# ============================================================
+# BASES DE DATOS
+# Ignorar todas excepto la base de evidencia de AgroGuard
+# ============================================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+!outputs/agroguard_events.db
+
+
+# ============================================================
+# MODELOS
+# Conservar únicamente el modelo final
+# ============================================================
+
+models/*.pt
+
+!models/agroguard_yolov8n_v1.pt
+
+
+# ============================================================
+# VERSIONES ANTIGUAS O INTERMEDIAS
+# ============================================================
+
+src/actuator_controller_v1.py
+
+tools/test_tracking.py
+tools/validate_batch.py
+tools/validate_batch_main2.py
+tools/validate_batch_main_metrics.py
+tools/validate_batch_main_metrics_tegrastats.py
+
+
+# ============================================================
+# RESULTADOS INTERMEDIOS O DUPLICADOS
+# Se conservan los archivos finales con sufijo warmup
+# ============================================================
+
+data/validation/validation_performance_summary.csv
+data/validation/validation_performance_summary_tegrastats.csv
+
+data/validation/validation_resources_raw_tegrastats.csv
+data/validation/validation_resources_summary_tegrastats.csv
+
+data/validation/validation_results.csv
+data/validation/validation_results_main_metrics.csv
+data/validation/validation_results_main_metrics_tegrastats.csv
+data/validation/validation_results_main_metrics_tegrastats (copy).csv
+
+data/validation/validation_summary.csv
+data/validation/validation_summary_main_metrics.csv
+data/validation/validation_summary_main_metrics_tegrastats.csv
+
+
+# ============================================================
+# ARCHIVOS TEMPORALES
+# ============================================================
+
+*.tmp
+*.temp
+*.log
+*~
